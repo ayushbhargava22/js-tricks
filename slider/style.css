@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+body{
+    padding: 0 20px;
+}
+.job-1{
+    border: 1px solid black;
+    margin-right: 20px;
+    box-shadow: 5px 5px 5px 5px #ccc;
+}
+
+.job-1-title h1{
+    font-family: 'Itim', cursive;
+    margin-bottom: 0;
+    display: flex;
+    margin-left: 12px;
+    font-size: 40px;
+}
+.job-1-title p{
+    margin-left: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    line-height: 1;
+    margin-left: 14px;
+}
+.job-1-title span {
+    color: red;
+}
+.desp-job-1 h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    margin-left: 12px;
+    letter-spacing: 1.5px;
+    border-bottom: 2px solid black;
+    width: fit-content;
+}
+.desp-job-1 p{
+    margin-left: 10px;
+    text-align: center;
+}
+.job-facility-wrap ul{
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    justify-content: space-evenly;
+}
+.job-facility-wrap li:first-child{
+    background-color: red;
+}
+.job-facility-wrap li {
+
+    border: 1px solid black;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+.job-facility-wrap li:hover{
+    background-color: transparent;
+    color: black;
+}
